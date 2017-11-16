@@ -10,8 +10,9 @@ Cargar template a nivel proyecto.
 
 Ejemplo
 ___
-`$ wget https://raw.githubusercontent.com/sclorg/mongodb-container/master/examples/petset/mongodb-petset-persistent.yaml`
 
-```$ oc create -f mongodb-petset-persistent.yaml
+```$ wget https://raw.githubusercontent.com/sclorg/mongodb-container/master/examples/petset/mongodb-petset-persistent.yaml
+
+$ oc create -f mongodb-petset-persistent.yaml
 
 template "mongodb-petset-replication" created```
