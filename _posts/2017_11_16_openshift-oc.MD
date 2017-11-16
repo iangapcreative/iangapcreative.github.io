@@ -11,6 +11,8 @@ Cargar template a nivel proyecto.
 Ejemplo
 ___
 
+Dar de alta un template para crear cluster MongoDB con persistencia en MongoDB
+
 ```
 $ wget https://raw.githubusercontent.com/sclorg/mongodb-container/master/examples/petset/mongodb-petset-persistent.yaml
 $ oc create -f mongodb-petset-persistent.yaml
